@@ -1,7 +1,7 @@
 <h1 align="center" >
   <p>
-    Coffee Shop<br>
-    React.js<br>
+    ParaPet Ecommerce<br>
+
   </p>
 </h1>
 
