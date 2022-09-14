@@ -1,0 +1,19 @@
+.total_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid #16479d;
+  padding-bottom: 1em;
+  margin: 1em;
+}
+.total_container h1 {
+  margin-bottom: 0;
+}
+
+.total_container p {
+  font-weight: bold;
+  color: #16479d;
+  margin-right: 1rem;
+  font-size: 1.8em;
+}

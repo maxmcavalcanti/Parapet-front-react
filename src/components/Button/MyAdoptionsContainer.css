@@ -1,0 +1,77 @@
+.petlist_row {
+  justify-content: space-between;
+  min-width: none;
+}
+
+.petlist_row span {
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 200px;
+}
+
+.action_buttons_container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.action_buttons {
+  margin: 0 auto;
+}
+.action_buttons span {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  width: fit-content;
+}
+
+.petlist_row button {
+  border: none;
+  background: transparent;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.quantity {
+  font-size: 1em;
+  display: flex;
+  gap: 1em;
+  font-weight: bold;
+  justify-content: space-between;
+  max-width: 20em;
+}
+
+.petlist_row .delete_button {
+  border-radius: 4px;
+  padding: 0.3em;
+  background: #c23228;
+  color: #fff;
+}
+
+@media (max-width: 756px) {
+  .quantity {
+    flex-direction: column;
+    gap: 0.8em;
+  }
+}
+
+@media (max-width: 600px) {
+  .petlist_row {
+    flex-direction: column;
+  }
+  .quantity {
+    flex-direction: row;
+    margin-top: 1em;
+  }
+  .action_buttons_container {
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  .action_buttons {
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+  }
+}

@@ -1,0 +1,90 @@
+.contacts {
+  margin-left: 2em;
+}
+
+.contacts p {
+  margin: 0.5em;
+  margin-left: 5em;
+}
+
+.cart_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.compras_container {
+  display: flex;
+  flex-direction: row;
+}
+
+.section_container {
+  width: 100%;
+}
+.form_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.form_container input {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  height: 20px;
+  border-radius: 6px;
+  border: 1px solid #16479d;
+  font-size: 1.2rem;
+  padding: 1rem;
+  margin-left: 1rem;
+}
+.form_container input::placeholder {
+  color: #16479d;
+}
+.button_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+}
+.button {
+  display: flex;
+  height: 2rem;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  border-radius: 6px;
+  border: none;
+  gap: 1rem;
+  padding-left: 3.5rem;
+  cursor: pointer;
+}
+.button:focus {
+  border: 2px solid #16479d;
+}
+
+.button p {
+  margin: 0;
+  color: #16479d;
+  font-weight: bold;
+}
+.cart_button_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 0 auto;
+}
+.btn_confirm {
+  text-decoration: none;
+  background-color: #16479d;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+  padding: 0.5em 0.8em;
+  border-radius: 5px;
+  border: 2px solid #16479d;
+}

@@ -1,0 +1,53 @@
+.pet_details_container {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+.left_detail {
+  display: flex;
+  flex-direction: column;
+}
+.right_detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pet_details_container p {
+  margin-bottom: 1em;
+}
+
+.pet_images {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.pet_images img {
+  max-height: 200px;
+  margin: 1em;
+  border-radius: 5px;
+}
+
+.pet_details_container button {
+  text-decoration: none;
+  background-color: #16479d;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 14px;
+  margin-left: 1em;
+  padding: 7px 12px;
+  border-radius: 5px;
+  border: 2px solid #16479d;
+}
+
+.pet_details_container button:hover {
+  background-color: transparent;
+  color: #16479d;
+}
