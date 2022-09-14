@@ -22,11 +22,11 @@ O projeto tem como objetivo utilizar os conhecimentos adquirios no curso de Full
 - Aumentar ou remover a quantidade de itens no carrinho ✔️
 - Formulário para o usuário preencher o seu endereço ✔️
 - Exibir o valor total da soma de itens no carrinho multiplicados pelo valor ✔️
-- Cadastro de usuários
-- Autenticação de usuários por token de segurança (JWT)
-- Banco de dados com deploy (MongoDB)
-- Repositório backend (https://github.com/maxmcavalcanti/parapet-nodejs-tera)
-- Deploy do site na S3 da Amazon (http://parapet-react-tera.s3-website-sa-east-1.amazonaws.com/)
+- Cadastro de usuários ✔️
+- Autenticação de usuários por token de segurança (JWT) ✔️
+- Banco de dados com deploy (MongoDB) ✔️
+- Repositório backend (https://github.com/maxmcavalcanti/parapet-nodejs-tera) ✔️
+- Deploy do site na S3 da Amazon (http://parapet-react-tera.s3-website-sa-east-1.amazonaws.com/) ✔️
 
 ## 🔧 Ferramentas Utilizadas
 
